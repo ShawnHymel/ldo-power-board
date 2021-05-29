@@ -346,23 +346,23 @@ VOUT3
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 60B1B68A
-P 9950 6700
-F 0 "FID1" H 10035 6746 50  0000 L CNN
-F 1 "Fiducial" H 10035 6655 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9950 6700 50  0001 C CNN
-F 3 "~" H 9950 6700 50  0001 C CNN
-	1    9950 6700
+P 9300 6700
+F 0 "FID1" H 9385 6746 50  0000 L CNN
+F 1 "Fiducial" H 9385 6655 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9300 6700 50  0001 C CNN
+F 3 "~" H 9300 6700 50  0001 C CNN
+	1    9300 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 60B1BD73
-P 9950 6950
-F 0 "FID2" H 10035 6996 50  0000 L CNN
-F 1 "Fiducial" H 10035 6905 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9950 6950 50  0001 C CNN
-F 3 "~" H 9950 6950 50  0001 C CNN
-	1    9950 6950
+P 9300 6950
+F 0 "FID2" H 9385 6996 50  0000 L CNN
+F 1 "Fiducial" H 9385 6905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9300 6950 50  0001 C CNN
+F 3 "~" H 9300 6950 50  0001 C CNN
+	1    9300 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -385,6 +385,28 @@ F 1 "MountingHole" H 10600 6905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.1mm" H 10500 6950 50  0001 C CNN
 F 3 "~" H 10500 6950 50  0001 C CNN
 	1    10500 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60B2006D
+P 9800 6700
+F 0 "H3" H 9900 6746 50  0000 L CNN
+F 1 "MountingHole" H 9900 6655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9800 6700 50  0001 C CNN
+F 3 "~" H 9800 6700 50  0001 C CNN
+	1    9800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60B201EB
+P 9800 6950
+F 0 "H4" H 9900 6996 50  0000 L CNN
+F 1 "MountingHole" H 9900 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 9800 6950 50  0001 C CNN
+F 3 "~" H 9800 6950 50  0001 C CNN
+	1    9800 6950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

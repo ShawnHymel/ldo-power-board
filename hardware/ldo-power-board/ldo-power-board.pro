@@ -1,4 +1,4 @@
-update=5/27/2021 7:15:45 PM
+update=5/28/2021 11:48:20 AM
 version=1
 last_client=kicad
 [general]
@@ -21,7 +21,7 @@ BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
+ProhibitOverlappingCourtyards=0
 MinTrackWidth=0.1524
 MinViaDiameter=0.508
 MinViaDrill=0.254
@@ -227,7 +227,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.22
+Clearance=0.2032
 TrackWidth=0.254
 ViaDiameter=0.508
 ViaDrill=0.254
@@ -238,8 +238,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.22
-TrackWidth=0.3
+Clearance=0.2032
+TrackWidth=0.381
 ViaDiameter=0.508
 ViaDrill=0.254
 uViaDiameter=0.3
@@ -247,3 +247,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
